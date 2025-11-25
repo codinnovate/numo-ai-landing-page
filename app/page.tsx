@@ -100,9 +100,11 @@ export default function Home() {
               <a href="#pricing" className="text-gray-300 hover:text-[#CC8C1E] transition-colors duration-200 font-medium">Pricing</a>
               <Link href="/privacy" className="text-gray-300 hover:text-[#CC8C1E] transition-colors duration-200 font-medium">Privacy</Link>
               <Link href="/terms" className="text-gray-300 hover:text-[#CC8C1E] transition-colors duration-200 font-medium">Terms</Link>
-              <button className="bg-gradient-to-r from-[#CC8C1E] to-[#CC8C1E]/80 text-[#0E0E20] px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform duration-200">
+              <Link
+                href='https://apps.apple.com/us/app/numoai/id6749455357'
+                className="bg-gradient-to-r from-[#CC8C1E] to-[#CC8C1E]/80 text-[#0E0E20] px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform duration-200">
                 Get Started
-              </button>
+              </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -188,15 +190,19 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="flex flex-col sm:flex-row gap-6 justify-center items-center"
             >
-              <button className="group inline-flex items-center px-10 py-5 bg-gradient-to-r from-[#CC8C1E] to-[#CC8C1E]/80 text-[#0E0E20] font-semibold rounded-full text-lg shadow-2xl hover:shadow-[#CC8C1E]/25 transform hover:scale-105 transition-all duration-200 border border-[#CC8C1E]/20">
+              <Link
+               href='https://apps.apple.com/us/app/numoai/id6749455357'
+               className="group inline-flex items-center px-10 py-5 bg-gradient-to-r from-[#CC8C1E] to-[#CC8C1E]/80 text-[#0E0E20] font-semibold rounded-full text-lg shadow-2xl hover:shadow-[#CC8C1E]/25 transform hover:scale-105 transition-all duration-200 border border-[#CC8C1E]/20">
                 Start My Insight Scan
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
-              </button>
+              </Link>
               
-              <button className="group inline-flex items-center px-8 py-4 bg-[#0E0E20]/80 text-white font-semibold rounded-full text-lg border border-[#CC8C1E]/30 hover:border-[#CC8C1E]/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-200">
+              <Link
+               href='https://apps.apple.com/us/app/numoai/id6749455357'
+               className="group inline-flex items-center px-8 py-4 bg-[#0E0E20]/80 text-white font-semibold rounded-full text-lg border border-[#CC8C1E]/30 hover:border-[#CC8C1E]/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-200">
                 <Apple className="mr-2 w-5 h-5" />
                 Download on App Store
-              </button>
+              </Link>
             </motion.div>
           </motion.div>
         </div>
@@ -432,9 +438,11 @@ export default function Home() {
                   <span className="font-lora">Growth journal</span>
                 </li>
               </ul>
-              <button className="w-full py-3 border border-[#CC8C1E]/30 text-white rounded-full hover:border-[#CC8C1E]/50 transition-colors duration-200 font-semibold">
+              <Link
+               href='https://apps.apple.com/us/app/numoai/id6749455357'
+               className="w-full py-3 border border-[#CC8C1E]/30 text-white rounded-full hover:border-[#CC8C1E]/50 transition-colors duration-200 font-semibold">
                 Get Started
-              </button>
+              </Link>
             </motion.div>
 
             {/* Pro Plan */}
